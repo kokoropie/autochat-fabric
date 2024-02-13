@@ -1,0 +1,5 @@
+{
+    "text.autoconfig.AutoChat.title": "AutoChat",
+    "text.autoconfig.AutoChat.option.message": "Message",
+    "text.autoconfig.AutoChat.option.delay": "Delay (in minutes)"
+}

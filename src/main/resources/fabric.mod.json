@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "autochat",
+	"version": "${version}",
+	"name": "AutoChat",
+	"description": "Automatically send chat messages at a set interval.",
+	"authors": [
+		"Kaga Akatsuki"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/"
+	},
+	"license": "MIT",
+	"icon": "assets/autochat/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kaga.autochat.AutoChat"
+		],
+		"modmenu": [
+			"com.kaga.autochat.impl.ModMenuApiImpl"
+		]
+	},
+	"mixins": [
+		"autochat.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"cloth-config2": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}
