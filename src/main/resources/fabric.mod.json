@@ -8,7 +8,9 @@
 		"Kaga Akatsuki"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/"
+		"homepage": "https://github.com/kokoropie/autochat-fabric",
+		"sources": "https://github.com/kokoropie/autochat-fabric",
+		"email": "filberttkarry2210@gmail.com"
 	},
 	"license": "MIT",
 	"icon": "assets/autochat/icon.png",
